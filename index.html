@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body class="theme-light" id="body">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Portofolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#welcome">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#profile">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Project</a></li>
+          <li class="nav-item">
+            <button class="btn btn-outline-primary ms-3" id="toggleTheme">Ganti Tema</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Selamat Datang -->
+  <section id="welcome" class="d-flex align-items-center justify-content-center fade-section" data-aos="fade-up">
+    <div class="text-center">
+      <h1 class="display-3 fw-bold">Selamat Datang</h1>
+      <p class="lead">Tempat saya membagikan karya dan perjalanan saya di dunia teknologi.</p>
+      <a href="#profile" class="btn btn-primary btn-lg mt-3">Next?  </a>
+    </div>
+  </section>
+
+  <!-- Profil -->
+  <section id="profile" class="fade-section" data-aos="fade-right">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Profil Singkat</h2>
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+          <img src="https://i.pinimg.com/564x/87/4b/f3/874bf3d5dc084c138cd188bd38df2e48.jpg" class="rounded-circle shadow img-fluid" alt="Foto Profil">
+        </div>
+        <div class="col-md-8">
+          <p>Halo! Nama saya Raihan. Saya adalah seorang pengembang web yang memiliki minat dalam desain UI/UX, pengembangan aplikasi berbasis web, dan teknologi modern. Saya senang mempelajari hal baru dan selalu berusaha mengasah keterampilan saya dalam dunia digital.</p>
+          <p>Saya percaya bahwa desain yang baik adalah yang memadukan estetika dan fungsionalitas, sehingga pengalaman pengguna menjadi lebih menyenangkan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="projects" class="fade-section" data-aos="fade-left">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Kerjaan saya</h2>
+      <div class="row g-4">
+       
+        <div class="col-md-4">
+          <div class="card shadow h-100 card-link" data-link="https://jojo-beige.vercel.app/">
+            <img src="C:\Users\ASUS\OneDrive\Gambar\Screenshots\Screenshot 2025-08-13 091328.png" class="card-img-top" alt="Proyek 1">
+            <div class="card-body">
+              <h5 class="card-title">Kalkulator Sederhana</h5>
+              <p class="card-text">Dalam pembuatan projek ini melibatkan bahasa html, css, dan javascript, 
+                Kalkulator ini pula dapat berfungsi sebagaimana mestinya.</p>
+            </div>
+          </div>
+        </div>
+        
+         <div class="col-md-4">
+          <div class="card shadow h-100 card-link" data-link="https://sstt-navy.vercel.app/">
+            <img src="C:\Users\ASUS\OneDrive\Gambar\Screenshots\Screenshot 2025-08-13 092003.png" class="card-img-top" alt="Proyek 1">
+            <div class="card-body">
+              <h5 class="card-title">Stopwatch</h5>
+              <p class="card-text">Dalam pembuatan projek ini melibatkan bahasa html, css, dan javascript, 
+                Stopwatch ini pula dapat berfungsi sebagaimana mestinya.</p>
+            </div>
+          </div>
+        </div>
+
+         <div class="col-md-4">
+          <div class="card shadow h-100 card-link" data-link="https://jonathan-roan.vercel.app/">
+            <img src="C:\Users\ASUS\OneDrive\Gambar\Screenshots\Screenshot 2025-08-13 092132.png" class="card-img-top" alt="Proyek 1">
+            <div class="card-body">
+              <h5 class="card-title">Formulir Pendaftaran</h5>
+              <p class="card-text">Dalam pembuatan projek ini melibatkan bahasa html, css, dan javascript, 
+                Formulir ini pula dapat berfungsi sebagaimana mestinya.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center border-top mt-5 bg-secondary">
+    <p class="mb-0">&copy; 2025 Raihan. Contact me</p>
+  </footer>
+
+  <!-- Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
